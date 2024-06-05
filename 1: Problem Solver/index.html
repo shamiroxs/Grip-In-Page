@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="question-container">
+        <h1>Do you have a problem in your life?</h1>
+        <button onclick="handleAnswer('yes')">Yes</button>
+        <button onclick="handleAnswer('no')">No</button>
+    </div>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <p id="popup-message"></p>
+            <button id="reset-button" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

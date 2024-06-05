@@ -1,0 +1,63 @@
+body {
+    background-color: #012F4A; /* Blue Zodiac */
+    color: #012F4A;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #C1CCD3; /* Tiara */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: #68accb; /* Fountain Blue */
+    border: none;
+    color: #012F4A;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #76B3DD;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #89CFF0; /* Fountain Blue */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px; /* Adjust width */
+    height: 200px; /* Adjust height */
+}
+
+.popup-content {
+    text-align: center;
+    font-size: 32px; /* Adjust font size */
+    line-height: 1.5; /* Adjust line height if needed */
+}
+
+#reset-button {
+    background-color: #6D8A96; /* Regent gray */
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+#reset-button:hover {
+    background-color: #5A7682;
+}
